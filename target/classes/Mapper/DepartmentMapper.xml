@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 设置为DepartmentDao接口方法提供sql语句配置 -->
+<mapper namespace="com.hubu.dao.DepartmentDao">
+    <insert id="add" parameterType="com.hubu.entity.Department">
+    insert  into  "SSM"."DEPARTMENT" (DEPARTMENT) values (#{department});
+    </insert>
+
+    <update id="update" parameterType="com.hubu.entity.Department">
+    UPDATE  "SSM"."DEPARTMENT" SET DEPARTMENT=#{department} WHERE ID=#{id};
+    </update>
+
+    <delete id="delete" parameterType="com.hubu.entity.Department">
+    DELETE FROM  "SSM"."DEPARTMENT"  WHERE ID= #{id};
+    </delete>
+
+    <select id="find" resultType="com.hubu.entity.Department" parameterType="com.hubu.entity.Department">
+    SELECT  *  FROM  "SSM"."DEPARTMENT" WHERE ID= #{id};
+    </select>
+
+    <select id="findDep" resultType="String" parameterType="com.hubu.entity.Department">
+    SELECT  "SSM"."DEPARTMENT".DEPARTMENT  FROM  "SSM"."DEPARTMENT" WHERE ID= #{id};
+    </select>
+
+    <select id="findAll" resultType="com.hubu.entity.Department" >
+    SELECT  *  FROM  "SSM"."DEPARTMENT" ;
+    </select>
+
+    <select id="getDep" resultType="String" >
+    SELECT  "SSM"."DEPARTMENT".DEPARTMENT  FROM  "SSM"."DEPARTMENT" ;
+    </select>
+
+    <select id="getId" resultType="int" >
+    SELECT  D.ID  FROM  "SSM"."DEPARTMENT" D Where DEPARTMENT=#{department};
+    </select>
+
+
+    <!--  根据岗位查询用户的用户名及姓名-->
+    <resultMap type="Map" id="UserMap">
+        <result column="DEPARTMENT" property="department"/>
+        <result column="USERNAME" property="username"/>
+        <result column="REALNAME" property="realname"/>
+    </resultMap>
+    <select id="getUser" resultMap="UserMap"  >
+        select D.DEPARTMENT,U.USERNAME,U.REALNAME  from "SSM"."USER" U,"SSM"."DEPARTMENT" D
+        where U.DEPID=D.ID AND D.DEPARTMENT=#{department}
+        <if test="page.start!=null and page.count!=null">
+            limit #{page.start},#{page.count}
+        </if>
+    </select>
+
+    <select id="total" resultType="int">
+            select count(*) from   "SSM"."USER" U,"SSM"."DEPARTMENT" D  where
+            U.DEPID=D.ID and D.DEPARTMENT=#{department}
+        </select>
+
+</mapper>

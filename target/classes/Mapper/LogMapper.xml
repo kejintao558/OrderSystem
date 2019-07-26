@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hubu.dao.LogDao">
+
+    <insert id="add" parameterType="com.hubu.entity.Log">
+        insert into "SSM"."LOG" (LOCALDAY,DEPARTMENT,HANDER,CARRYER,REMARK,HANDFLAG,CARRYFLAG)
+        values (#{localday},#{department},#{hander},#{carryer},#{remark},#{handflag},#{carryflag})
+    </insert>
+
+    <update id="update" parameterType="com.hubu.entity.Log">
+        update "SSM"."LOG"  set  LOCALDAY=#{localday},DEPARTMENT=#{department},
+        HANDER=#{hander},CARRYER=#{carryer},REMARK=#{remark},HANDFLAG=#{handflag},CARRYFLAG=#{carryflag}
+        where ID = #{id}
+    </update>
+
+    <select id="find" resultType="com.hubu.entity.Log" parameterType="com.hubu.entity.Log">
+        select * from "SSM"."LOG" where DEPARTMENT=#{department} and LOCALDAY=#{localday}
+    </select>
+
+    <select id="findLog" resultType="com.hubu.entity.Log" parameterType="String" >
+        select * from "SSM"."LOG" where DEPARTMENT=#{department}
+    </select>
+
+
+</mapper>    

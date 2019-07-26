@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>日历</title>
+</head>
+
+<link src='../js/fullcalendar-4.1.0.css' rel='stylesheet' />
+<script src='../js/fullcalendar-4.1.0.moment.js'></script>
+<script src="../js/jquery-3.2.1.js"></script>
+<script src='../js/fullcalendar-4.1.0.js'></script>
+
+
+<body>
+<div id='calendar'></div>
+
+<script>
+    $('#calendar').fullCalendar({
+        defaultView: 'month',
+        height: 'auto',
+        header: false,
+        displayEventTime:true,
+        displayEventEnd:true,
+        weekMode:"liquid",
+        aspectRatio:2,
+        allDaySlot:false,
+        timeFormat: 'HH:mm',
+        locale:'zh-cn',
+    })
+    </script>
+</body>
+</html>

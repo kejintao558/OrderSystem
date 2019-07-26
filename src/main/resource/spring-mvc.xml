@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!-- 扫描web相关的bean -->
+    <context:component-scan  base-package="com.hubu.controller">
+        <context:include-filter type="annotation"
+                                expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+    <!-- 开启SpringMVC注解模式 -->
+    <mvc:annotation-driven/>
+
+    <!-- 静态资源默认servlet配置 -->
+    <mvc:default-servlet-handler/>
+    <!--与前端交互时候用到-->
+    <!-- 主要增加的地方,大概理解为 增加了该路径下css和图片的静态资源,否则网页图片和css样式无法加载 -->
+    <mvc:resources mapping="css/**" location="WEB-INF/css/"/>
+    <mvc:resources location="/WEB-INF/img/" mapping="/img/**"/>
+    <mvc:resources location="/WEB-INF/js/" mapping="/js/**"/>
+    <!-- 配置jsp 显示ViewResolver -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+        <property name="prefix" value="/WEB-INF/views/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!-- 将 springSwaggerConfig加载到spring容器 -->
+    <!-- 将自定义的swagger配置类加载到spring容器 -->
+    <bean class="com.hubu.Test.document.SwaggerConfig"/>
+
+    <mvc:resources mapping="/swagger/**" location="/swagger/"/>
+
+    <!-- 接口跨域配置 -->
+    <mvc:cors>
+        <mvc:mapping path="/**"
+                     allowed-origins="*"
+                     allowed-methods="*"
+                     allowed-headers="Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+                     allow-credentials="true"/>
+    </mvc:cors>
+
+
+
+
+</beans>

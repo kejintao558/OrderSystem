@@ -1,0 +1,46 @@
+<component name="libraryTable">
+  <library name="commons-lang">
+    <CLASSES>
+      <root url="file://$MAVEN_REPOSITORY$/commons-lang" />
+      <root url="file://$MAVEN_REPOSITORY$/jdo" />
+      <root url="file://$MAVEN_REPOSITORY$/io" />
+      <root url="file://$MAVEN_REPOSITORY$/commons-chain" />
+      <root url="file://$MAVEN_REPOSITORY$/ognl" />
+      <root url="file://$MAVEN_REPOSITORY$/com" />
+      <root url="file://$MAVEN_REPOSITORY$/myeclipse-reports" />
+      <root url="file://$MAVEN_REPOSITORY$/commons-validator" />
+      <root url="file://$MAVEN_REPOSITORY$/el-ri" />
+      <root url="file://$MAVEN_REPOSITORY$/commons-collections" />
+      <root url="file://$MAVEN_REPOSITORY$/oro" />
+      <root url="file://$MAVEN_REPOSITORY$/myeclipse" />
+      <root url="file://$MAVEN_REPOSITORY$/dom4j" />
+      <root url="file://$MAVEN_REPOSITORY$/commons-digester" />
+      <root url="file://$MAVEN_REPOSITORY$/commons-logging" />
+      <root url="file://$MAVEN_REPOSITORY$/sslext" />
+      <root url="file://$MAVEN_REPOSITORY$/commons-io" />
+      <root url="file://$MAVEN_REPOSITORY$/commons-codec" />
+      <root url="file://$MAVEN_REPOSITORY$/javax" />
+      <root url="file://$MAVEN_REPOSITORY$/jstl" />
+      <root url="file://$MAVEN_REPOSITORY$/org" />
+      <root url="file://$MAVEN_REPOSITORY$/javassist" />
+      <root url="file://$MAVEN_REPOSITORY$/xml-apis" />
+      <root url="file://$MAVEN_REPOSITORY$/mysql" />
+      <root url="file://$MAVEN_REPOSITORY$/el-api" />
+      <root url="file://$MAVEN_REPOSITORY$/io/projectreactor" />
+      <root url="file://$MAVEN_REPOSITORY$/commons-beanutils" />
+      <root url="file://$MAVEN_REPOSITORY$/log4j" />
+      <root url="file://$MAVEN_REPOSITORY$/net" />
+      <root url="file://$MAVEN_REPOSITORY$/junit" />
+      <root url="file://$MAVEN_REPOSITORY$/jexcelapi" />
+      <root url="file://$MAVEN_REPOSITORY$/classworlds" />
+      <root url="file://$MAVEN_REPOSITORY$/.cache" />
+      <root url="file://$MAVEN_REPOSITORY$/antlr" />
+      <root url="file://$MAVEN_REPOSITORY$/aopalliance" />
+      <root url="file://$MAVEN_REPOSITORY$/avalon-framework" />
+      <root url="file://$MAVEN_REPOSITORY$/backport-util-concurrent" />
+      <root url="file://$MAVEN_REPOSITORY$/ch" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

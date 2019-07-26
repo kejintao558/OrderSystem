@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.hubu.dao.EventDao">
+
+    <insert id="add" parameterType="com.hubu.entity.Event">
+    insert into "SSM"."EVENT" (TITLE,START,ALLDAY,DEPARTMENT)VALUES (#{title},#{start},#{allday},#{department});
+    </insert>
+
+    <update id="update"  parameterType="com.hubu.entity.Event">
+    update  "SSM"."EVENT" set TITLE=#{title},START=#{start},ALLDAY=#{allday},DEPARTMENT=#{department}
+    WHERE ID=#{id};
+    </update>
+
+    <delete id="delete" parameterType="com.hubu.entity.Event" >
+    DELETE FROM  "SSM"."EVENT"  WHERE ID=#{id};
+    </delete>
+
+    <select id="findByDep" resultType="com.hubu.entity.Event" parameterType="com.hubu.entity.Event" >
+        select * from  "SSM"."EVENT" where DEPARTMENT=#{department};
+    </select>
+
+    <select id="getBylog" resultType="com.hubu.entity.Event" parameterType="com.hubu.entity.Event" >
+        select * from  "SSM"."EVENT" where DEPARTMENT=#{department} AND START =#{localday};
+    </select>
+
+
+</mapper>

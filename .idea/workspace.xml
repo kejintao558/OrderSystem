@@ -1,0 +1,1761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ssm_frame:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ba91ce4-1c15-47b9-9f0e-ad2a4483eb1d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dm7JdbcDriver17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dm7JdbcDriver171.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dm7JdbcDriver17__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/RXTXcomm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/repository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_api_1_7_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_log4j12_1_7_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_nop_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/Test/Cros/SimpleCORSFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/Test/TestLog4j.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/Test/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/Test/document/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/controller/AuthorityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/controller/EventController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/controller/LogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/dao/AuthorityDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/dao/DepartmentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/dao/EventDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/dao/LogDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/entity/Authority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/entity/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/entity/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/entity/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/service/AuthorityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/service/EventService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/service/LogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/service/serviceImpl/AuthorityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/service/serviceImpl/DepartmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/service/serviceImpl/EventServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/service/serviceImpl/LogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hubu/service/serviceImpl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/Log4j/log/example.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/Log4j/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/Mapper/AuthorityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/Mapper/DepartmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/Mapper/EventMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/Mapper/LogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/Mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/css/fullcalendar-4.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/fullcalendar-4.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/fullcalendar-4.1.0.moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/Dm7JdbcDriver17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/RXTXcomm.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/slf4j-api-1.7.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/slf4j-log4j12-1.7.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/slf4j-nop-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/css/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/css/screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/css/typography.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/fonts/DroidSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/fonts/DroidSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/images/collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/images/expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/images/explorer_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/images/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/images/logo_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/images/pet_store_api.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/images/throbber.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/images/wordnik_api.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lang/geo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lang/ko-kr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lang/translator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lib/backbone-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lib/es5-shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lib/handlebars-2.0.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lib/highlight.9.1.0.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lib/highlight.9.1.0.pack_extended.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lib/jquery-1.8.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lib/jquery.ba-bbq.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lib/jquery.slideto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lib/jquery.wiggle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lib/js-yaml.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lib/jsoneditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lib/lodash.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lib/marked.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lib/object-assign-pollyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/lib/swagger-oauth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/o2c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/swagger-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/swagger/swagger-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm_frame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Log4j/log/example.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Log4j/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/ssm_frame.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Mapper/AuthorityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Mapper/DepartmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Mapper/EventMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Mapper/LogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/Test/Cros/SimpleCORSFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/Test/TestLog4j.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/Test/UserTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/Test/document/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/controller/AuthorityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/controller/DepartmentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/controller/EventController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/controller/LogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/dao/AuthorityDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/dao/DepartmentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/dao/EventDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/dao/LogDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/entity/Authority.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/entity/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/entity/Event.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/entity/Log.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/entity/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/service/AuthorityService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/service/DepartmentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/service/EventService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/service/LogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/service/serviceImpl/AuthorityServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/service/serviceImpl/DepartmentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/service/serviceImpl/EventServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/service/serviceImpl/LogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/hubu/service/serviceImpl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/Log4j/log/example.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/Log4j/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/META-INF/ssm_frame.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/Mapper/AuthorityMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/Mapper/DepartmentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/Mapper/EventMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/Mapper/LogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/Mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/Test/Cros/SimpleCORSFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/Test/TestLog4j.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/Test/UserTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/Test/document/SwaggerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/controller/AuthorityController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/controller/DepartmentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/controller/EventController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/controller/LogController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/dao/AuthorityDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/dao/DepartmentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/dao/EventDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/dao/LogDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/dao/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/entity/Authority.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/entity/Department.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/entity/Event.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/entity/Log.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/entity/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/service/AuthorityService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/service/DepartmentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/service/EventService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/service/LogService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/service/serviceImpl/AuthorityServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/service/serviceImpl/DepartmentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/service/serviceImpl/EventServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/service/serviceImpl/LogServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/com/hubu/service/serviceImpl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/css/fullcalendar-4.1.0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/js/fullcalendar-4.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/js/fullcalendar-4.1.0.moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/js/jquery-3.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/Dm7JdbcDriver17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/RXTXcomm.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/animal-sniffer-annotations-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/aspectjrt-1.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/checker-qual-2.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/classmate-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/commons-collections-3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/commons-digester-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/commons-lang-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/compiler-0.8.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/error_prone_annotations-2.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/freemarker-2.3.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/guava-26.0-jre.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/hamcrest-core-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/j2objc-annotations-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/jackson-annotations-2.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/jackson-core-2.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/jackson-databind-2.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/javassist-3.7.ga.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/jcl-over-slf4j-1.7.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/joda-time-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/jsqlparser-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/jsr305-3.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/junit-4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/mapstruct-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/mvel2-2.0.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/mybatis-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/mybatis-spring-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/mysql-connector-java-5.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/ognl-2.7.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/oro-2.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/pagehelper-5.1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/servlet-api-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/slf4j-api-1.7.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/slf4j-log4j12-1.7.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/slf4j-nop-1.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/spring-aop-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/spring-beans-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/spring-context-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/spring-context-support-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/spring-core-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/spring-expression-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/spring-jdbc-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/spring-oxm-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/spring-plugin-core-1.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/spring-plugin-metadata-1.2.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/spring-test-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/spring-tx-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/spring-web-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/spring-webmvc-4.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/springfox-core-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/springfox-schema-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/springfox-spi-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/springfox-spring-web-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/springfox-swagger-common-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/springfox-swagger-ui-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/springfox-swagger2-2.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/swagger-annotations-1.3.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/swagger-annotations-1.5.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/swagger-models-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/swagger-models-1.5.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/swagger-springmvc-1.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-api-3.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-autotag-core-runtime-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-compat-3.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-core-3.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-el-3.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-extras-3.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-freemarker-3.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-jsp-3.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-mvel-3.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-ognl-3.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-request-api-1.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-request-freemarker-1.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-request-jsp-1.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-request-mustache-1.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-request-servlet-1.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-request-servlet-wildcard-1.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-request-velocity-1.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-servlet-3.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-template-3.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/tiles-velocity-3.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/velocity-1.6.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/lib/velocity-tools-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/views/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/views/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/views/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/css/print.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/css/screen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/css/typography.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/fonts/DroidSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/fonts/DroidSans.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/images/collapse.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/images/expand.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/images/explorer_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/images/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/images/logo_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/images/pet_store_api.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/images/throbber.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/images/wordnik_api.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lang/geo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lang/ko-kr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lang/translator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lib/backbone-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lib/es5-shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lib/handlebars-2.0.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lib/highlight.9.1.0.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lib/highlight.9.1.0.pack_extended.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lib/jquery-1.8.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lib/jquery.ba-bbq.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lib/jquery.slideto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lib/jquery.wiggle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lib/js-yaml.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lib/jsoneditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lib/lodash.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lib/marked.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lib/object-assign-pollyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/lib/swagger-oauth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/o2c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/swagger-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/ssm_frame/swagger/swagger-ui.min.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/controller/EventController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+              <folding>
+                <element signature="e#2797#2798#0" expanded="true" />
+                <element signature="e#2847#2848#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/Mapper/AuthorityMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="46" lean-forward="true" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/Mapper/EventMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/Mapper/LogMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-26">
+              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="52" column="38" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/spring-mvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="45" column="95" selection-start-line="45" selection-start-column="82" selection-end-line="45" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/controller/DepartmentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1077#1078#0" expanded="true" />
+                <element signature="e#1121#1122#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/Test/Cros/SimpleCORSFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="Tag Library Descriptor" />
+        <option value="XSLT Stylesheet" />
+        <option value="FxmlFile" />
+        <option value="Mapper" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>userMapper</find>
+      <find>mapper</find>
+      <find>userId</find>
+      <find>UserName</find>
+      <find>Name</find>
+      <find>maven</find>
+      <find>roleid</find>
+      <find>部门</find>
+      <find>3.2.2</find>
+      <find>EventService</find>
+      <find>Day</find>
+      <find>spring</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>id</replace>
+      <replace>userName</replace>
+      <replace>Password</replace>
+      <replace>name</replace>
+      <replace>岗位</replace>
+      <replace>Eventdao</replace>
+      <replace>day</replace>
+      <replace>handflag</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/swagger/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/Test/document/SwaggerConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/Test/TestLog4j.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/Log4j/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/Test/Cros/SimpleCORSFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/entity/Department.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/Mapper/DepartmentMapper.tld" />
+        <option value="$PROJECT_DIR$/target/ssm_frame/WEB-INF/classes/Mapper/DepartmentMapper.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/entity/UserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/Mapper/EventMapper.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/service/serviceImpl/DepartmentImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/service/serviceImpl/EventImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/entity/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/entity/Authority.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/dao/AuthorityDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/Mapper/AuthorityMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/service/AuthorityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/service/serviceImpl/AuthorityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/service/serviceImpl/DepartmentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/service/serviceImpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/dao/EventDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/service/EventService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/service/serviceImpl/EventServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/service/LogService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/service/serviceImpl/LogServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/service/DepartmentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/dao/DepartmentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/dao/LogDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/entity/Log.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/entity/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/controller/DepartmentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/entity/Event.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/controller/LogController.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/Mapper/LogMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/Mapper/EventMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/Mapper/DepartmentMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/spring.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/Test/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/controller/AuthorityController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resource/Mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hubu/controller/EventController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/Tool/maven/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\Tool\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_frame Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ssm_frame Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-49" />
+    <option name="y" value="-49" />
+    <option name="width" value="1978" />
+    <option name="height" value="1071" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="ssm_frame" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssm_frame" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="ssm_frame" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssm_frame" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssm_frame" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssm_frame" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssm_frame" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssm_frame" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssm_frame" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssm_frame" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssm_frame" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssm_frame" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="hubu" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssm_frame" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="ssm_frame" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path" value="E:\SSM\ssm_frame" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="E:/Android/kejintao" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.47816592" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hubu.service.serviceImpl" />
+      <recent name="com.hubu.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SSM\ssm_frame\src\main\webapp\WEB-INF\lib" />
+      <recent name="E:\SSM\ssm_frame\src\main\webapp\WEB-INF\js" />
+      <recent name="E:\SSM\ssm_frame\src\main\webapp\WEB-INF\css" />
+      <recent name="E:\SSM\ssm_frame\src\main\webapp\swagger" />
+      <recent name="E:\SSM\ssm_frame\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SSM\ssm_frame\src\main\webapp" />
+      <recent name="E:\workspace\IntelliJIdeaWS\ssm_frame\src\main\resource\Mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.ssm_frame">
+    <configuration name="TestLog4j" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hubu.Test.TestLog4j" />
+      <module name="ssm_frame" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hubu.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ssm_frame (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm_frame" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm_frame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hubu.Test.document.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hubu.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.hubu.Test.UserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ssm_frame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hubu.Test.document.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hubu.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.hubu.Test.UserTest" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ssm_frame" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value=" -Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="ssm_frame:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ssm_frame" />
+        <option name="HTTP_PORT" value="8081" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49256" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm_frame:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="test.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/WEB-INF/views/test.html" />
+      <deployment>
+        <artifact name="ssm_frame:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ssm_frame_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="test_html_ssm_frame" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="2273" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm_frame:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestLog4j" />
+      <item itemvalue="JUnit.UserTest" />
+      <item itemvalue="JUnit.All in ssm_frame (3)" />
+      <item itemvalue="JUnit.UserTest.findAll" />
+      <item itemvalue="Tomcat Server.ssm_frame" />
+      <item itemvalue="Tomcat Server.test.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserTest.findAll" />
+        <item itemvalue="JUnit.UserTest" />
+        <item itemvalue="Tomcat Server.test.html" />
+        <item itemvalue="JUnit.All in ssm_frame (3)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ba91ce4-1c15-47b9-9f0e-ad2a4483eb1d" name="Default" comment="" />
+      <created>1556935070132</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556935070132</updated>
+      <workItem from="1556935073118" duration="13564000" />
+      <workItem from="1557104616240" duration="1750000" />
+      <workItem from="1557108061485" duration="10117000" />
+      <workItem from="1557120314889" duration="10743000" />
+      <workItem from="1557132014947" duration="14357000" />
+      <workItem from="1557153033414" duration="4494000" />
+      <workItem from="1557190767074" duration="16046000" />
+      <workItem from="1557236427276" duration="26000" />
+      <workItem from="1557281522647" duration="1823000" />
+      <workItem from="1557293383017" duration="25192000" />
+      <workItem from="1557374000870" duration="6369000" />
+      <workItem from="1557448767334" duration="4608000" />
+      <workItem from="1557479012706" duration="42497000" />
+      <workItem from="1557650317485" duration="6446000" />
+      <workItem from="1557728954077" duration="36326000" />
+      <workItem from="1557842815304" duration="1963000" />
+      <workItem from="1557929610095" duration="343000" />
+      <workItem from="1557980810972" duration="1435000" />
+      <workItem from="1557982289322" duration="3870000" />
+      <workItem from="1558013546194" duration="32024000" />
+      <workItem from="1558231759414" duration="1410000" />
+      <workItem from="1558233361103" duration="9542000" />
+      <workItem from="1558328531988" duration="25765000" />
+      <workItem from="1558417618966" duration="23563000" />
+      <workItem from="1558492399304" duration="11313000" />
+      <workItem from="1558572828961" duration="25787000" />
+      <workItem from="1558746894833" duration="10323000" />
+      <workItem from="1558846508709" duration="1645000" />
+      <workItem from="1558852947648" duration="7592000" />
+      <workItem from="1558940248795" duration="3432000" />
+      <workItem from="1558955024171" duration="4907000" />
+      <workItem from="1559012898298" duration="9699000" />
+      <workItem from="1559302874914" duration="3820000" />
+      <workItem from="1559352240287" duration="15959000" />
+      <workItem from="1559699423224" duration="3552000" />
+      <workItem from="1561519738312" duration="14000" />
+      <workItem from="1561800157227" duration="79000" />
+      <workItem from="1561800950995" duration="53000" />
+      <workItem from="1561801037621" duration="84000" />
+      <workItem from="1561801432261" duration="592000" />
+      <workItem from="1561802098515" duration="82000" />
+      <workItem from="1561802226056" duration="17000" />
+      <workItem from="1562077018156" duration="30000" />
+      <workItem from="1562582393057" duration="27000" />
+      <workItem from="1563006846740" duration="535000" />
+      <workItem from="1563290052863" duration="3000" />
+      <workItem from="1563325365532" duration="20000" />
+      <workItem from="1563783391205" duration="1375000" />
+      <workItem from="1563849442205" duration="12000" />
+      <workItem from="1564018576772" duration="603000" />
+      <workItem from="1564103875759" duration="638000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserTest - 2019.05.20 at 17h 49m 49s.xml">
+      <configuration name="UserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest - 2019.05.20 at 17h 52m 48s.xml">
+      <configuration name="UserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest - 2019.05.20 at 17h 55m 09s.xml">
+      <configuration name="UserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest - 2019.05.22 at 10h 35m 12s.xml">
+      <configuration name="UserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest - 2019.05.22 at 10h 36m 39s.xml">
+      <configuration name="UserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest - 2019.05.22 at 15h 41m 35s.xml">
+      <configuration name="UserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_findAll - 2019.06.01 at 10h 36m 11s.xml">
+      <configuration name="UserTest.findAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_findAll - 2019.06.01 at 10h 36m 47s.xml">
+      <configuration name="UserTest.findAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_findAll - 2019.06.01 at 10h 39m 16s.xml">
+      <configuration name="UserTest.findAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_findAll - 2019.06.01 at 10h 40m 12s.xml">
+      <configuration name="UserTest.findAll" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="396466000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22325581" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Learn" order="7" weight="0.32995737" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49700996" weight="0.43541363" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39855072" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49966776" weight="0.3289855" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3289855" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3289855" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289855" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50299" side_tool="true" weight="0.38260868" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3280116" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3289855" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24983388" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32956812" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.2910299" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32956812" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31960133" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Learn" order="7" weight="0.32995737" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49700996" visible="true" weight="0.27826086" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39855072" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49966776" weight="0.3289855" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3289855" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289855" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50299" side_tool="true" weight="0.38260868" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289855" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3289855" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24983388" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32956812" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.19069767" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32956812" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hubu/service/serviceImpl/UserServiceImpl.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ssm_frame$ssm_frame.ic" NAME="ssm_frame Coverage Results" MODIFIED="1557153449974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ssm_frame$UserTest.ic" NAME="UserTest Coverage Results" MODIFIED="1557370069509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hubu.Test.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/swagger/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/entity/UserInfo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resource/Mapper/EventMapper.fxml" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="319" column="56" lean-forward="true" selection-start-line="319" selection-start-column="56" selection-end-line="319" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/entity/Role.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/entity/Authority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/entity/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-192">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc;n#checkAuthority#0;n#UserService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/service/serviceImpl/DepartmentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/entity/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/service/serviceImpl/EventServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/entity/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ssm_frame.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/Log4j/log/example.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/Mapper/DepartmentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/service/serviceImpl/AuthorityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/service/DepartmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/service/serviceImpl/LogServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/dao/AuthorityDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/service/serviceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#add#0;class#UserServiceImpl#0" />
+            <element signature="e#1031#1044#0" />
+            <element signature="e#1922#1923#0" expanded="true" />
+            <element signature="e#1971#1972#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/service/EventService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/dao/LogDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/service/LogService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/dao/EventDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="98" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/entity/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/Test/TestLog4j.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/Test/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/Test/document/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2470">
+          <caret line="130" column="67" selection-start-line="130" selection-start-column="67" selection-end-line="130" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/dao/DepartmentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/Mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/service/AuthorityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/controller/LogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1211">
+          <caret line="104" column="32" selection-start-line="104" selection-start-column="32" selection-end-line="104" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1036">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/controller/AuthorityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/controller/DepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/Test/Cros/SimpleCORSFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hubu/controller/EventController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding>
+            <element signature="e#2797#2798#0" expanded="true" />
+            <element signature="e#2847#2848#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/Mapper/AuthorityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="46" lean-forward="true" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/Mapper/EventMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/Mapper/LogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="95" selection-start-line="45" selection-start-column="82" selection-end-line="45" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47816592" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ssm_frame:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47816592" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47816592" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47816592" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47816592" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ssm_frame</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47816592" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.github.pagehelper:pagehelper:5.1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.47816592" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

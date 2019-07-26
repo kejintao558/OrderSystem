@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<!-- 设置为IUserDao接口方法提供sql语句配置 -->
+<mapper namespace="com.hubu.dao.UserDao">
+
+
+<!--  增加用户-->
+    <insert id="add" parameterType="com.hubu.entity.User">
+    insert  into  "SSM"."USER" (USERNAME,PASSWORD,REALNAME) values (#{username},#{password},#{realname});
+    </insert>
+
+<!--   更改用户信息-->
+    <update id="update" parameterType="com.hubu.entity.User">
+    UPDATE  "SSM"."USER" SET USERNAME=#{username},PASSWORD=#{password},
+    REALNAME=#{realname},ROLEID=#{roleid},DEPID=#{depid}WHERE ID=#{id};
+    </update>
+
+<!--根据用户id删出用户-->
+    <delete id="delete" parameterType="com.hubu.entity.User">
+    DELETE FROM  "SSM"."USER"  WHERE ID= #{id};
+    </delete>
+
+<!--   根据用户id查 -->
+    <select id="findById" resultType="com.hubu.entity.User" parameterType="com.hubu.entity.User">
+    SELECT  *  FROM  "SSM"."USER"  WHERE ID= #{id};
+    </select>
+
+<!--查询所有-->
+    <select id="findAll" resultType="com.hubu.entity.User" >
+    SELECT  *  FROM  "SSM"."USER"  ;
+    </select>
+
+<!--    &lt;!&ndash; 根据用户名查询 &ndash;&gt;-->
+<!--    <select id="checkUsername"  resultType="com.hubu.entity.User" parameterType="com.hubu.entity.User">-->
+<!--        select * from "SSM"."USER" where USERNAME = #{username};-->
+<!--    </select>-->
+
+    <!--根据用户名和用户密码查询-->
+    <select id="checkPassword" resultType="com.hubu.entity.User"  parameterType="com.hubu.entity.User">
+        select * from "SSM"."USER" where USERNAME = #{username} and PASSWORD = #{password};
+    </select>
+
+    <!--查询用户权限-->
+    <select id="checkAuthority" resultType="String"  parameterType="com.hubu.entity.User">
+        select A.ROLE  from "SSM"."USER" U,"SSM"."AUTHORITY" A where U.ROLEID=A.ID AND U.ID=#{id}
+    </select>
+
+<!--   查询用户具体信息 -->
+    <resultMap type="Map" id="UserInfoMap">
+        <result column="ID" property="id"/>
+        <result column="USERNAME" property="username"/>
+        <result column="PASSWORD" property="password"/>
+        <result column="REALNAME" property="realname"/>
+        <result column="ROLE" property="role"/>
+        <result column="DEPARTMENT" property="department"/>
+    </resultMap>
+    <select id="getInfo" resultMap="UserInfoMap"  parameterType="map">
+        select U.ID,U.USERNAME,U.PASSWORD,U.REALNAME,A.ROLE,D.DEPARTMENT
+        from "SSM"."USER" U,"SSM"."DEPARTMENT" D ,"SSM"."AUTHORITY" A
+        where U.DEPID=D.ID AND U.ROLEID=A.ID
+        <if test="start!=null and count!=null">
+            limit #{start},#{count}
+        </if>
+    </select>
+
+    <select id="total" resultType="int">
+            select count(*) from   "SSM"."USER"
+        </select>
+
+    <select id="getRealname" resultType="String" parameterType="com.hubu.entity.User">
+    SELECT  U.REALNAME  FROM  "SSM"."USER"  U WHERE DEPID= #{depid};
+    </select>
+
+
+</mapper>
